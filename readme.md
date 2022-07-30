@@ -13,7 +13,7 @@ npm install
 ## Usage
 
 ```
-$ npm start first-argument second-argument
+npm start first-argument second-argument
 ```
 
 Note:
@@ -23,7 +23,7 @@ Note:
 
 ```node
 # npm start [viewport-width] [pixel]
-$ npm start 1512 20
+npm start 1512 20
 ```
 
 - Get the output in 'vw' of '20px'
