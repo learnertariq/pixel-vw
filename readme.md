@@ -23,11 +23,11 @@ Note:
 
 ```node
 # npm start [viewport-width] [pixel]
-npm start 1512 20
-
-# Get the output in 'vw' of '20px'
-# The output 'vw' is automatically copied to the clipboard.
+$ npm start 1512 20
 ```
+
+- Get the output in 'vw' of '20px'
+- The output 'vw' is automatically copied to the clipboard.
 
 ## Contributing
 
