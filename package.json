@@ -1,0 +1,16 @@
+{
+  "name": "pixel-to-vw",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "This package converts pixel to vw according to your desired viewport",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Learner Tariq",
+  "license": "ISC",
+  "dependencies": {
+    "clipboardy": "^3.0.0"
+  }
+}
