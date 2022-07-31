@@ -1,7 +1,8 @@
 import clipboardy from "clipboardy";
-const input = parseFloat(process.argv[3]);
 const viewportWidth = parseInt(process.argv[2]);
-const vw = (input * 100) / viewportWidth;
+const pixelToConvert = parseFloat(process.argv[3]);
+const vw = (pixelToConvert * 100) / viewportWidth;
+const vwFixedTo4 = vw.toFixed(4);
 
-clipboardy.writeSync(vw.toFixed(4) + "vw");
-console.log(">>>>>", input + "px => ", vw.toFixed(4) + "vw");
+clipboardy.writeSync(vwFixedTo4 + "vw");
+console.log(">>>>>", pixelToConvert + "px => ", vwFixedTo4 + "vw");
